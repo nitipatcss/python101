@@ -28,9 +28,9 @@ def check_temp(temp):
 if __name__ == '__main__':
     temp = input("enter your temperature: ")
     while temp != 'q':
-        temp = int(temp)
-
-        print(check_temp(temp))
-
-        temp = int(input("enter your temp agian.. :"))
+        if temp.isnumeric():
+            temp = int(temp)
+            print(check_temp(temp))
+        else:
+            temp = int(input("enter your temp agian.. :"))
     sys.exit(0)
