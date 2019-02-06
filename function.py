@@ -31,7 +31,7 @@ if __name__ == '__main__':
             temp = int(temp)
             print(check_temp(temp))
         else:
-            print("You must enter mumber or 'q' only.")
+            print("You must enter number or 'q' only.")
 
         temp = input("enter your temp again.. :")
     sys.exit(0)
