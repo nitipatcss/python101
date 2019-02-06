@@ -32,5 +32,5 @@ if __name__ == '__main__':
             temp = int(temp)
             print(check_temp(temp))
         else:
-            temp = int(input("enter your temp agian.. :"))
+            temp = int(input("enter your temp again.. :"))
     sys.exit(0)
